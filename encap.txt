@@ -1,0 +1,11 @@
+Encapsulation in Java is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
+It is the mechanism that binds together code and the data it manipulates.It acts as a protective shield which prevents data to be accessed from being accessed by code outside this shield.
+We can create a fully encapsulated class in Java by making all the data members of the class private.
+
+Advantages of Encapsulation in Java are:
+1)It provides you the control over the data.
+2)It is a way to achieve data hiding in Java because other class will not be able to access the data through the private data members.
+3)The encapsulate class is easy to test. 
+
+Disadvantages of Encapsulation in Java are:
+1)If proper encapsulation is not followed in a code,it can lead to bad designing.

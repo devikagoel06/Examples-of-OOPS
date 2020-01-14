@@ -1,0 +1,12 @@
+Abstraction is the property by virtue of which only the essential details are displayed to the user.The trivial or the non-essentials units are not displayed to the user.
+It may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details.The properties and behaviors of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.
+In java, abstraction is achieved by interfaces and abstract classes. We can achieve 100% abstraction using interfaces.
+
+Advantages of Abstraction are:
+1)Avoids code duplication.
+2)Increases reusability.
+3)Reduces the complexity of viewing things.
+4)Helps to enhance the securtiy of an application.
+
+Disadvantages of Abstraction are:
+1)If one uses heavy abstraction in the code then it can be difficult for another developer to figure out the flow of control.

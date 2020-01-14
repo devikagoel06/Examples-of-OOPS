@@ -1,0 +1,17 @@
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. 
+It is an important part of OOPs (Object Oriented programming system).The idea behind inheritance in Java is that you can create new classes that are built upon existing classes.
+When you inherit from an existing class, you can reuse methods and fields of the parent class.
+some terminolgy:
+Super Class: The class whose features are inherited is known as super class(or a base class or a parent class).
+Sub Class: The class that inherits the other class is known as sub class(or a derived class, extended class, or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
+Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+Advantages of Inheritance in Java are:
+1)Reusability:Facility to use public methods of base class without rewriting the same.
+2)Extensibility:Extending the base class logic as per the logic of the derived class.
+3)Data hiding:Base class can decide to keep some data private so that it cannot be altered by the derived class
+4)Overriding:With inheritance, we will be able to override the methods of the base class so that meaningful implementation of the base class method can be designed in the derived class.
+
+Disdvantages of Inheritance in Java are:
+1)Increased time or effort it takes the program to jump through all the levels of overloaded classes.
+2)If a method is deleted in the "base class" or aggregate, then we will have to re-factor in case of using that method,here things can get a bit complicated.

@@ -1,0 +1,19 @@
+The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.
+In Java polymorphism is mainly divided into two types:
+
+1)Compile time Polymorphism:It is also known as static polymorphism. This type of polymorphism is achieved by function overloading or operator overloading.
+Method Overloading: When there are multiple functions with same name but different parameters then these functions are said to be overloaded. Functions can be overloaded by change in number of arguments or/and change in type of arguments.
+Operator Overloading: Java also provide option to overload operators. For example, we can make the operator (‘+’) for string class to concatenate two strings. We know that this is the addition operator whose task is to add two operands. So a single operator ‘+’ when placed between integer operands, adds them and when placed between string operands, concatenates them.
+In java, Only “+” operator can be overloaded:
+
+*)To add integers
+*)To concatenate strings
+2)Runtime Polymorphism:It is also known as Dynamic Method Dispatch. It is a process in which a function call to the overridden method is resolved at Runtime. This type of polymorphism is achieved by Method Overriding.
+Method overriding, on the other hand, occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
+
+Advantages of Polymorphism are:
+1)Method overriding allows a sub class to use all the general definitions that a super class provides and add specialized definitions through overridden methods.
+2)Method overriding works together with inheritance to enable code reuse of existing classes without the need for re-compilation.
+
+Disadvantages of Polymorphism are:
+1)Polymorphism reduces the readability of the program. One needs to identify the runtime behavior of the program to identify actual execution time.
